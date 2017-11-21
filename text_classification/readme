@@ -1,0 +1,7 @@
+please put stopword-list,train-class-list,test-list and the train folder into this folder first.
+
+For train phase please run:
+python3 tc_train.py stopword-list train-class-list model
+
+FOr test phase please run:
+python3 tc_test.py stopword-list model test-list test-class-list
